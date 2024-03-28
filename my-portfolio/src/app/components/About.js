@@ -1,22 +1,34 @@
 export default function About() {
     return(
         <div>
-                  <br></br>
-    <div className="portfolio-container">
-      <div className="portfolio-header">
-        <h1 className='font-semibold'>MY Portfolio</h1>
+      <div id="hero" className="bg-whitish min-h-[93vh] flex items-center justify-center py-8 drop-shadow-md md:px-0 px-4 font-poppins dark:bg-greenish">
+        <div className="flex flex-col justify-center items-center py-5">
+          <h3 className="text-night md:font-bold font-semibold md:text-5xl text-3xl py-3 text-center dark:text-whitish">Hello!👋 This is Farah 🐡</h3>
+          <h3 className="text-greenish md:font-semibold font-normal md:text-2xl text-xl py-3 text-center dark:text-beige">I'm a  Marine Biologist and Full-Stack Web Developer</h3>
+          <br></br>
+          <a href="https://example.com" className="bg-purple-300 hover:bg-purple-400 text-purple-800 hover:text-white font-semibold py-2 px-4 ">View My Resume</a>
+        </div>
       </div>
-      <div className="portfolio-section">
-        <h2 className='font-semibold' >About Me</h2>
-        <p>
-          I am a dedicated and passionate individual with a strong background
-          in biological sciences and a keen interest in technology. I recently
-          completed a rigorous six-month immersive coding bootcamp at Re:Coded,
-          where I honed my skills in web development and design. Through this
-          experience, I have developed a solid foundation in both technical and
-          soft skills, allowing me to thrive in dynamic and collaborative environments.
-        </p>
-      </div>
+
+
+      <div className="bg-whitish dark:bg-greenish min-h-screen flex items-center justify-center flex-col py-10 px-12" style={{ backgroundColor: "#f5f5f5" }}>
+        <div className="portfolio-section bg-whitish min-h-[93vh] flex items-center justify-center py-8 drop-shadow-md md:px-0 px-4 font-poppins dark:bg-greenish">
+          <div className="flex flex-col justify-center items-center py-5">
+          <h1 className="font-semibold text-night text-4xl text-center text-justify md:text-8xl">About Me</h1>
+          <br/>
+            <div className="px-6 md:text-2xl sm:text-xl text-lg my-1 md:font-normal font-normal text-night dark:text-whitish md:w-3/4 flex flex-col">
+          <p className="pb-3 text-justify">
+              I am a dedicated and passionate individual with a strong background
+              in biological sciences and a keen interest in technology. I recently
+              completed a rigorous six-month immersive coding bootcamp at Re:Coded,
+              where I honed my skills in web development and design. Through this
+              experience, I have developed a solid foundation in both technical and
+              soft skills, allowing me to thrive in dynamic and collaborative environments.
+            </p>
+          </div>
+        </div>
+        </div>
+
       <div className="portfolio-section">
         <h2 className='font-semibold'>Education</h2>
         <ul>
@@ -141,9 +153,9 @@ export default function About() {
       <div className="portfolio-section">
         <h2 className='font-semibold' >Contact Information</h2>
         <ul>
-          <li>Email: [Your Email Address]</li>
-          <li>LinkedIn: [Your LinkedIn Profile URL]</li>
-          <li>GitHub: [Your GitHub Profile URL]</li>
+          <li>Email: [ Email Address]</li>
+          <li>LinkedIn: [ LinkedIn Profile URL]</li>
+          <li>GitHub: [ GitHub Profile URL]</li>
         </ul>
       </div>
     </div>
